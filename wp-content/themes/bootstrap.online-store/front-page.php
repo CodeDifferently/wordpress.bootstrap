@@ -1,17 +1,18 @@
 <!-- my test page -->
 <?php get_header();?>
 
+<body id="page-top">
+  <!-- About Section begins here -->
+  <?php include 'components/about-section.php';?>
 
-	<div class="container">
-		<div class="row">		
-			<div class="col">
-				<a href="<?php get_template_directory_uri ();?>/wordpress/my-test-page">Click here to visit my other page</a>
-			</div>
-			<div class="col">
+  <!-- Projects Section begins here -->
+  <?php include 'components/projects-section.php';?>
 
-			</div>
-		</div>
-	</div>
+  <!-- Signup Section -->
+  <?php include 'components/signup-section.php';?>
 
+  <!-- Contact Section -->
+  <?php include 'components/contact-section.php';?>
+</body>
 
 <?php get_footer();?>

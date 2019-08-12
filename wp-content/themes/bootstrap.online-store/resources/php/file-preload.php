@@ -19,6 +19,11 @@ function register_and_enqueue_local_style($val, $path) {
     register_and_enqueue_style($val, get_template_directory_uri() . '/resources/css/' . $path);
 }
 
+function register_and_enqueue_local_lib_style($val, $path) {
+    register_and_enqueue_style($val, get_template_directory_uri() . '/resources/lib/' . $path);
+}
+
+
 
 function register_and_enqueue_style($val, $path) {
     wp_deregister_style($val);
