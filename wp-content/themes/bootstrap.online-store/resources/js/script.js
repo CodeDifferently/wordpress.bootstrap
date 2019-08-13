@@ -1,1 +1,1 @@
-alert('Testing my local javascript file...');
+console.log("Damn");

@@ -1,6 +1,7 @@
 
 <?php
-include 'resources/php/file-preload.php';
+include 'resources/libs/file-preload.php';
+include 'resources/libs/asset-injector.php';
 add_action('wp_enqueue_scripts', 'load_js');
 add_action('wp_enqueue_scripts', 'load_stylesheets');
 

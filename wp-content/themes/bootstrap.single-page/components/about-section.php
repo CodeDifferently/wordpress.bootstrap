@@ -10,3 +10,4 @@
     <img src="<?php bloginfo('template_directory'); ?>/resources/img/ipad.png">
   </div>
 </section>
+

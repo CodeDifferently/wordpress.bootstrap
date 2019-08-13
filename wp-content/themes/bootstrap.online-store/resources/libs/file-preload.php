@@ -36,6 +36,8 @@ function register_and_enqueue_style($val, $path) {
         'all'); // declares when this stylesheet is used
 
     wp_enqueue_style($val);
+    console.log("Hello world then");
+    console.log($val . "has been enqueued as a style.");
 }
 
 
@@ -50,4 +52,5 @@ function register_and_enqueue_script($val, $path, $addToFooterFlag) {
         $addToFooterFlag); // add to footer flag
 
     wp_enqueue_script($val);
+    console.log($val . "has been enqueued as a script.");
 }

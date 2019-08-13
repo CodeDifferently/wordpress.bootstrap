@@ -1,6 +1,7 @@
-
 <?php
-include 'resources/php/file-preload.php';
+
+include 'resources/libs/file-preload.php';
+include 'resources/libs/asset-injector.php';
 add_action('wp_enqueue_scripts', 'load_js');
 add_action('wp_enqueue_scripts', 'load_stylesheets');
 
@@ -20,9 +21,12 @@ function load_js() {
 function load_stylesheets() {
     register_and_enqueue_style('bootstrap4', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css');
     register_and_enqueue_style('font-nunito', 'https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
-    register_and_enqueue_style('font-varela-round', 'https://fonts.googleapis.com/css?family=Varela+Round');
-    register_and_enqueue_local_style('grayscale', 'grayscale.css');
-    register_and_enqueue_local_lib_style('varela-round', 'fontawesome-free/css/all.css');
+    
+    register_and_enqueue_local_style('front-page', 'front-page.css');
+    register_and_enqueue_local_style('shop-page', 'front-page.css');
+    register_and_enqueue_local_style('purchase-page', 'front-page.css');
+    register_and_enqueue_local_style('about-page', 'front-page.css');
 }
+
 
 ?>
