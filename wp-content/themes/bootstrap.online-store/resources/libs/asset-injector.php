@@ -1,3 +1,15 @@
+<!-- ---------------------WARNING!------------------------- -->
+<!-- ---------------------CUIDADO!------------------------- -->
+<!-- YOU ARE STRONGLY ADVISED AGAINST MODIFIYING THIS FILE! -->
+<!-- YOU ARE STRONGLY ADVISED AGAINST MODIFIYING THIS FILE! -->
+<!-- YOU ARE STRONGLY ADVISED AGAINST MODIFIYING THIS FILE! -->
+<!-- ---------------------CUIDADO!------------------------- -->
+<!-- ---------------------WARNING!------------------------- -->
+
+
+
+
+
 <?php 
 function insertImage($path, $additional_attributes='') {
     echo "<img src=\"" . get_template_directory_uri() . $path . "\" " . $additional_attributes .">";
