@@ -1,3 +1,5 @@
+<?php include('carousel.php') ?>
+
 <?php 
     $img = "/resources/img/placeholder-700x400.png";
     $itemName = "Item One";
