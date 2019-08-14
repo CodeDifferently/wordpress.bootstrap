@@ -5,7 +5,7 @@
       <div class="card-body">
         <h4 class="card-title">
           <a href="#">
-            <?php echo $itemName?></a>
+          <?php echo $itemName?></a>
         </h4>
         <h5>
           <?php echo $itemPrice?>
