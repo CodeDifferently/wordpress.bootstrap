@@ -13,7 +13,7 @@ function load_js() {
     register_and_enqueue_script('jquery-ui', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js', true);
     register_and_enqueue_script('jquery-easing', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js', true);
     register_and_enqueue_script('bootstrap4', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.js', false);
-    register_and_enqueue_local_script('my-sample-script', 'script.js', false);
+    register_and_enqueue_local_script('my-sample-script', '/script.js', false);
 }
 
 
