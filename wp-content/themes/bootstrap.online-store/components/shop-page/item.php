@@ -1,7 +1,7 @@
 <?php?>
   <div class="col-lg-4 col-md-6 mb-4">
     <div class="card h-100">
-      <a href="#"><img class="card-img-top" src="./img/placeholder-700x400.png" alt=""></a>
+      <a href="#"><?php insertImage($img, 'class="card-img-top"') ?></a>
       <div class="card-body">
         <h4 class="card-title">
           <a href="#">
