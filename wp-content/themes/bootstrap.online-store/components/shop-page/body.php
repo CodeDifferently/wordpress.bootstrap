@@ -7,35 +7,35 @@
 
 <?php 
     $img = "/resources/img/placeholder-700x400.png";
-    $itemName = "item two";
+    $itemName = "Item Two";
     $itemPrice = "29.95";
     $cardText = "Lorem Ipsum Test";
     include('item.php') ?>
 
 <?php 
     $img = "/resources/img/placeholder-700x400.png";
-    $itemName = "item three";
+    $itemName = "Item Three";
     $itemPrice = "29.95";
     $cardText = "Lorem Ipsum Test";
     include('item.php') ?>
 
 <?php 
     $img = "/resources/img/placeholder-700x400.png";
-    $itemName = "item one";
+    $itemName = "Item Four";
     $itemPrice = "29.95";
     $cardText = "Lorem Ipsum Test";
     include('item.php') ?>
 
 <?php 
     $img = "/resources/img/placeholder-700x400.png";
-    $itemName = "item one";
+    $itemName = "Item Five";
     $itemPrice = "29.95";
     $cardText = "Lorem Ipsum Test";
     include('item.php') ?>
 
 <?php 
     $img = "/resources/img/placeholder-700x400.png";
-    $itemName = "item one";
+    $itemName = "Item Six";
     $itemPrice = "29.95";
     $cardText = "Lorem Ipsum Test";
     include('item.php') ?>
