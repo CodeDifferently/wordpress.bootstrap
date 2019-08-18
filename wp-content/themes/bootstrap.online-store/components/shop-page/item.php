@@ -15,7 +15,23 @@
         </p>
       </div>
       <div class="card-footer">
-        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+      <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
       </div>
     </div>
   </div>
+
+
+
+
+
+<!-- 
+<//?php
+function echoStars($numberOfStars) {
+  $result = "";
+  for($i=0; $i < $numberOfStars; $i++) {
+    $result .= "&#9733; ";
+  }
+  preg_replace(" $", '', $result);
+  echo $result;
+}
+?>  -->
