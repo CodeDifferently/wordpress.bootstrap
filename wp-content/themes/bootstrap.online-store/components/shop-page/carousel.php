@@ -7,7 +7,7 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <?php insertImage("/resources/img/placeholder-900x400.png", 'class="d-block img-fluid"') ?>
+                <?php insertImage("/resources/img/placeholder-900x350.png", 'class="d-block img-fluid"') ?>
             </div>
 
             <div class="carousel-item">
