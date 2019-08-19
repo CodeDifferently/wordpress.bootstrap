@@ -7,19 +7,19 @@
             $description = "Truth is ever to be found in the simplicity, and not in the multiplicity and confusion of things.";
             $username = "Leon Hunter";
             $date = "04/23/1993";
-            include('product-review.php') ?>
+            include('_product-review.php') ?>
 
         <?php 
             $description = "English is a babylous language!";
             $username = "Leah Thompson";
             $date = "04/23/2019";
-            include('product-review.php') ?>
+            include('_product-review.php') ?>
 
         <?php 
             $description = "Happiness manifests at the intersection of passion and purpose.";
             $username = "Nazhir Jackson";
             $date = "04/23/2018";
-            include('product-review.php') ?>
+            include('_product-review.php') ?>
 
         <a href="#" class="btn btn-success">Leave a Review</a>
     </div>
